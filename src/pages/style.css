@@ -81,17 +81,19 @@ main img{
     flex-direction: row;
     
 }
+
  section ul a{
     text-decoration: none;
     color: blue;
 }
  section h2{
-   
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-text-transform: uppercase;
-text-align: center;
+   background-color:rgb(117, 30, 120);
+   width: 60px;
+   height: 60px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-    color:rgb(28, 5, 5);
+text-align: center;
+    color:rgb(42, 13, 13);
     font-size: 100px;
     
 }
@@ -100,17 +102,32 @@ section img{
     width: 450px;
     height: 650px;
     display:block;
-    padding-left:200px;
-    
-    
-   
+     
   
 }
-/*box*/
-.box{
-    border: 2px solid;
-    height: auto;
-    width:50% right;
-    float: right;
+/*box-about*/
+.section{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:row-wrap;
+}
+.box1{
+    order:2;
+    flex-grow: 3;
+    
+}
+img{
+    max-width: 700px;
+    max-height: 700px;
+}
+.box2{
+    order: 1;
+    width: 20px;
+    padding-top:100px;
+
+}
+.box3{
+    order:3;
+    flex-grow:2;
 }
 
