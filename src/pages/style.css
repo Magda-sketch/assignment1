@@ -1,20 +1,48 @@
-
+body{
+    background-image: url(../images/AgnesMo.jpg);
+    background-repeat: no-repeat;
+   
+   
+}
 .header-main{
-    width: 100px;
+    width: 100%;
     height: 60px;
-    
-    background-color: blanchedalmond;
+    background-color: rgb(31, 20, 3);
     display:flex;
+    flex-direction: row;
+   
 
 }
 .header-main div {
-    height:30px;
+    height:60px;
+    
 }
-.header-main div-1{
-    width: 100px;
-    background-color: rgb(44, 134, 134);
+.header-main .div-1{
+    width: 150px;
+    background-color: rgb(25, 157, 157);
+   
+   
 }
-.header-main div-1{
-    width: 100px;
-    background-color: rgb(32, 12, 26);
+.header-main .div-2{
+    width: 150px;
+    background-color: rgb(135, 38, 106);
 }
+.header-main .div-3{
+    width: 150px;
+    background-color: rgb(33, 109, 65);
+}
+ ul a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:aliceblue; 
+    
+}
+a:hover{
+    background-color: rgb(10, 30, 47);
+
+
+}
+
+
+
+
