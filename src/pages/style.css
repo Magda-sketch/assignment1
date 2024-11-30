@@ -1,5 +1,5 @@
 body{
-background-color:antiquewhite
+
 }
 .header-main{
     width: 100%;
@@ -16,18 +16,18 @@ background-color:antiquewhite
 }
 
 .header-main .div-1{
-    width: 150px;
+    width: 175px;
     background-color: rgb(25, 157, 157);  
     text-align: left;
     
 }
 .header-main .div-2{
-    width: 150px;
+    width: 175px;
     background-color: rgb(135, 38, 106);
     text-align: left;
 }
 .header-main .div-3{
-    width: 150px;
+    width: 175px;
     background-color: rgb(33, 109, 65);
     text-align: left;
     
@@ -39,13 +39,25 @@ h1{
     text-transform: uppercase;
     font-family: fantasy;
     text-align: center;
-   font-size: 50px;
+   font-size: 150px;
+   margin-bottom: -50px;
+   margin-top:-10px;
      
+}
+h2{
+     
+    color: rgb(172, 16, 16);
+    font-size: 100px;
+   font-style:oblique;
+   padding-left:100px;
+    padding-top:200px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
  ul a{
     text-decoration: none;
     text-transform: uppercase;
     color:aliceblue; 
+  
     
  
 }
@@ -54,15 +66,16 @@ a:hover{
     background-color: rgb(10, 30, 47);
 }
 
+
   
  
 main img{
-   
+    
     padding-top:10px;
   width: 800px;
   height: 1000px;
   float:right;
-    
+  background-color:rgb(101, 13, 23); 
 }
 
 
