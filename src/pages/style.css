@@ -1,8 +1,5 @@
 body{
-    background-image: url(../images/AgnesMo.jpg);
-    background-repeat: no-repeat;
-   
-   
+background-color:antiquewhite
 }
 .header-main{
     width: 100%;
@@ -11,38 +8,67 @@ body{
     display:flex;
     flex-direction: row;
    
-
+     
 }
 .header-main div {
     height:60px;
-    
+    text-align: center;
 }
+
 .header-main .div-1{
     width: 150px;
-    background-color: rgb(25, 157, 157);
-   
-   
+    background-color: rgb(25, 157, 157);  
+    text-align: left;
+    
 }
 .header-main .div-2{
     width: 150px;
     background-color: rgb(135, 38, 106);
+    text-align: left;
 }
 .header-main .div-3{
     width: 150px;
     background-color: rgb(33, 109, 65);
+    text-align: left;
+    
+}
+
+
+h1{
+    color: rgb(100, 59, 10);
+    text-transform: uppercase;
+    font-family: fantasy;
+    text-align: center;
+   font-size: 50px;
+     
 }
  ul a{
     text-decoration: none;
     text-transform: uppercase;
     color:aliceblue; 
     
+ 
 }
+
 a:hover{
     background-color: rgb(10, 30, 47);
+}
 
-
+  
+ 
+main img{
+   
+    padding-top:10px;
+  width: 800px;
+  height: 1000px;
+  float:right;
+    
 }
 
 
-
+/*about*/
+ section ul a{
+    text-decoration: none;
+    color: blue;
+}
 
