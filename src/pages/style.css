@@ -176,31 +176,71 @@ main img{
     color:rgb(135, 8, 116);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
-    padding-left: 300px;
+    padding-left: 350px;
     padding-top:20px;
 }
 
-.news{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+
+
+
+/*news*/
+.container{
    
-    gap: 1rem;
-    margin-top:5 rem;
- 
     box-sizing: border-box;
-}
-.box {
-    border: 1px solid;
-    border-radius:4px;
-    padding:2rem;
-    text-align:centre;
+    font-family: sans-serif;
+    width: 100%;
+    
 
 }
+.blog-section{
+    width: 95%;
+    margin:0px auto;
+    
+}
+.blog-section .title{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.blog-section .title h2{
+    font-size: 40px;
+    color: #357c35;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.blog-section .title p{
+    font-size:18px;
+    color:#7e7e7e;
+    margin-top: 20px;
+}
 
+.cards{
 
-.news img{
-max-width: 100px;
-display:block;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin:25px auto;
+
+}
+.bards.card{
+    width:100%;
+    position:relative;
+    
+
+}
+.image-section img{
+    width:100% ;
+    height:auto;
+
+}
+.content{
+    padding:15px 20px;
+
+}
+.content h4{
+    font-size:24px;
+    color:#222;
+    font-weight: 500;
 }
 
 /*playlist*/
