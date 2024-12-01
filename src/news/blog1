@@ -1,9 +1,3 @@
----
-import './style.css'
-
-
-
----
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -15,15 +9,7 @@ import './style.css'
 	
 	<body>
 		
-		<header class="header-news"><ul>
-            <a href="homepage">Home</a>
-        </ul>
-		<h1>Latest News and Tours<h1>
-    </header>
-		<ul>
-			<section class="news">
-			
-			</section>
+        <div class="box3"><img src="../images/Concert AgnezM.jpg"  alt=""></div>
 			
 
 		

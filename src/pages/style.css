@@ -82,13 +82,7 @@ main img{
     flex-direction: row;
     
 }
-.header-news{
-    width: 100%;
-    height: 60px;
-    background-color: rgb(31, 20, 3);
-    display:flex;
-    flex-direction: row;
-}
+
 
 
 
@@ -170,62 +164,24 @@ main img{
     padding-top:150px;
 
 }
-/*blog*/
-.news h2{
-    text-align: center;
-    margin-bottom: 20px;
-    font-size:2rem;
-    color:#333;
+/*news*/
 
+.header-news{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(238, 227, 212);
+    display:flex;
+    flex-direction: row;
 }
-/*news section*/
-.news-section{
-    padding:40px;
-    background-color: #f9f9f9;
+.header-news a{
+    color:rgb(14, 45, 72);
 }
-.news-grid{
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-    gap:20px;
-}
-.news-Mo1{
-    background:#fff;
-    border: 1px solid #ddd;
-    border-radius:8px;
-    overflow: hidden;
-    box-shadow:0 4px 6px rgba(0, 0, 0,0.1);
-    transition: transform 0.3s ease, box-shadow o.3s ease;
-}
-.news-Mo1:hover{
-    transform: translateY(-5px);
-    box-shadow:0 6px 10px rgba(0, 0, 0, 0.15)
-}
-.news-image{
-    width:100%;
-    height: auto;
-}
-.news-Mo1 h3{
-    font-size: 1.25rem;
-    margin:15px;
-    color:#222;
-}
-.news-Mo1 p{
-    font-size: 1rem;
-    margin15px;
-    color:#555;
-}
-.read-more{
-    display: inline-block;
-    margin:15px;
-    font-size: 0.9rem;
-    color:#007BFF;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-
-}
-.read-more:hover{
-    color:#0056b3;
+h1{
+    color:rgb(135, 8, 116);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    padding-left: 300px;
+    padding-top:20px;
 }
 
 /*playlist*/
@@ -238,8 +194,12 @@ main img{
 }
 .playlist h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
-
+.playlist ul li a{
+    text-decoration: none;
+    color: blue;
+    
+  
+}
    
-}
-
