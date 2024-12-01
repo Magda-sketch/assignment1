@@ -1,5 +1,11 @@
 ---
 import './style.css'
+import post1 from './news/post-1.md';
+import post2 from './news/post-2.md';
+import post3 from './news/post-3.md';
+
+
+
 ---
 <html lang="en">
 	<head>
@@ -7,11 +13,36 @@ import './style.css'
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>News/Tour</title>
 	</head>
+	
 	<body>
 		
-		
+		<header class="header-news"><ul>
+            <a href="homepage">Home</a>
+        </ul>
+    </header>
+		<ul>
+
+			<h1>Latest News and Tours<h1>
+			<article>
+				<h2>{post1.title}</h2>
+				<p>{post1.description}</p>
+				<div innerHTML={post1.body}></div>
+			</article>
+	
+			<article>
+				<h2>{post2.title}</h2>
+				<p>{post2.description}</p>
+				<div innerHTML={post2.body}></div>
+			</article>
+
+			<article>
+				<h2>{post3.title}</h2>
+				<p>{post3.description}</p>
+				<div innerHTML={post3.body}></div>
+			</article>
+
 		
 	</body>
 </html>
